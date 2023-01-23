@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Banda Grafith</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="content">
+        <nav>
+          <img class="brand" src="images/logo.png" alt="Logo da Banda Grafith" width=300 height=250>
+          <ul>
+            <li><a href="#musicas">Músicas</a></li>
+            <li><a href="#sobreabanda">Sobre a Banda</a></li>
+            <li><a href="#agenda">Agenda</a></li>
+            <button>Contratar Banda</button>
+          </ul>
+        </nav>
+        <div class="header-block">
+          <div class="text">
+            <!--<h2>A MAIS QUERIDA DO RN</h2>
+            <p>
+              "Tudo posso naquele que me fortalece"
+            </p>
+          </div>
+          <img src="images/grafith-logo.png" alt="Logo" />
+        </div>-->
+      </div>
+    </header>
+
+                                                <!--Página 2-->
+
+    <section class="musicas" id="musicas">
+      <div class="content">
+        <div class="titulo-musicas">
+          <!--<p>Os maiores sucessos da Banda Grafith</p>-->
+          <h3>Os maiores sucessos da Banda Grafith</h3>
+        </div>
+        <div class="filter-card">
+          <input
+            type="text"
+            class="search-input"
+            placeholder="Pesquise sua música favorita"
+          />
+          <button class="search-button">Procurar</button>
+        </div>
+        <div class="card-wrapper">
+          <div class="card-item">
+            <img src="images/chicobateunobode.png" alt="Car" />
+            <div class="card-content">
+              <h3>Chico Bateu no Bode</h3>
+              <p>
+                O maior sucesso da Banda Grafith, quando toca essa música a galera não se controla...
+              </p>
+              <button type="button">Ouvir</button>
+            </div>
+          </div>
+          <div class="card-item">
+            <img src="images/chicobateunobode.png" alt="Car" />
+            <div class="card-content">
+              <h3>Faraó</h3>
+              <p>
+                Esse clássico de Margareth Menezes, na voz da Banda Grafith, ninguém consegue ficar parado! 
+              </p>
+              <button type="button">Ouvir</button>
+            </div>
+          </div>
+          <div class="card-item">
+            <img src="images/chicobateunobode.png" alt="Car" />
+            <div class="card-content">
+              <h3>Eu Sou Ilê</h3>
+              <p>
+                Essa faz sucesso desde os primórdios da Banda, especificamente 1989.
+              </p>
+              <button type="button">Ouvir</button>
+            </div>
+          </div>
+          <div class="card-item">
+            <img src="images/chicobateunobode.png" alt="Car" />
+            <div class="card-content">
+              <h3>Chico Bateu no Bode</h3>
+              <p>
+                O maior sucesso da Banda Grafith, quando toca essa música a galera não se controla...
+              </p>
+              <button type="button">Ouvir</button>
+            </div>
+          </div>
+          <div class="card-item">
+            <img src="images/chicobateunobode.png" alt="Car" />
+            <div class="card-content">
+              <h3>Chico Bateu no Bode</h3>
+              <p>
+                O maior sucesso da Banda Grafith, quando toca essa música a galera não se controla...
+              </p>
+              <button type="button">Ouvir</button>
+            </div>
+          </div>
+          <div class="card-item">
+            <img src="images/chicobateunobode.png" alt="Car" />
+            <div class="card-content">
+              <h3>Chico Bateu no Bode</h3>
+              <p>
+                O maior sucesso da Banda Grafith, quando toca essa música a galera não se controla...
+              </p>
+              <button type="button">Ouvir</button>
+            </div>
+          </div>
+          <div class="card-item">
+            <img src="images/chicobateunobode.png" alt="Car" />
+            <div class="card-content">
+              <h3>Chico Bateu no Bode</h3>
+              <p>
+                O maior sucesso da Banda Grafith, quando toca essa música a galera não se controla...
+              </p>
+              <button type="button">Ouvir</button>
+            </div>
+          </div>
+          <div class="card-item">
+            <img src="images/chicobateunobode.png" alt="Car" />
+            <div class="card-content">
+              <h3>Chico Bateu no Bode</h3>
+              <p>
+                O maior sucesso da Banda Grafith, quando toca essa música a galera não se controla...
+              </p>
+              <button type="button">Ouvir</button>
+            </div>
+          </div>
+          <div class="card-item">
+            <img src="images/chicobateunobode.png" alt="Car" />
+            <div class="card-content">
+              <h3>Chico Bateu no Bode</h3>
+              <p>
+                O maior sucesso da Banda Grafith, quando toca essa música a galera não se controla...
+              </p>
+              <button type="button">Ouvir</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+                                                        <!--Página 3-->
+
+    <section class="sobreabanda" id="sobreabanda">
+      <div class="content">
+        <div class="titulo-banda">
+          <h3>Sobre a Banda Grafith</h3>
+        </div>
+        <div class="banda-content">
+          <div class="left">
+            <img src="images/95440ac6487f12ae828c5fd74c5ea512_resized.jpg" alt="banda" />
+          </div>
+          <div class="right">
+            <p>
+              Em 4 de novembro de 1988, os irmãos Kaká, Carlinhos, Joãozinho e Júnior se juntaram e compuseram a Banda Grafith. Vinte e seis anos mais tarde e com todas as mudanças ocorridas durante este longo percurso, a banda é uma das mais conceituadas do Rio Grande do Norte, com média elevada de shows por mês durante o ano (no verão, o número de apresentações dobra) e constantes solicitações para carnavais, formaturas, confraternizações e eventos. Sua história é sempre lembrada e comemorada no mês de novembro, com uma grande festa que agita a noite potiguar, com várias horas de show e uma viagem no mundo da música.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+                                                        <!--Página 4-->
+
+    <section class="agenda" id="agenda">
+      <div class="content">
+        <div class="titulo-agenda">
+          <p>Agenda de Shows</p>
+          <h3>Acompanhe o Grafithão</h3>
+        </div>
+        <div class="feature-card-block">
+          <div class="feature-card-item">
+            <img src="images/20-01.png" alt="Feature" />
+            <div class="feature-text-content">
+              <h3>Formatura de Farmácia 2022.2 UFCG</h3>
+              <p>Santa Cruz - RN</p>
+            </div>
+          </div>
+          <div class="feature-card-item">
+            <img src="images/22-01.png" alt="Feature" />
+            <div class="feature-text-content">
+              <h3>Ponta do Mel</h3>
+              <p>Areia Branca - RN</p>
+            </div>
+          </div>
+          <div class="feature-card-item">
+            <img src="images/27-01.png" alt="Feature" />
+            <div class="feature-text-content">
+              <h3>Evento Privado</h3>
+              <p>S. J. do Campestre - RN</p>
+            </div>
+          </div>
+          <div class="feature-card-item">
+            <img src="images/05-02.png" alt="Feature" />
+            <div class="feature-text-content">
+              <h3>Jardim de Piranhas - RN</h3>
+              <p>Jardim de Piranhas - RN</p>
+            </div>
+          </div>
+          <div class="feature-card-item">
+            <img src="images/09-02.png" alt="Feature" />
+            <div class="feature-text-content">
+              <h3>Canguaretama - RN</h3>
+              <p>Canguaretama - RN</p>
+            </div>
+          </div>
+          <div class="feature-card-item">
+            <img src="images/11-02.png" alt="Feature" />
+            <div class="feature-text-content">
+              <h3>Timbaúba dos Batistas - RN</h3>
+              <p>Timbaúba dos Batistas - RN</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="main">
+        <div class="content footer-links">
+          <div class="footer-social">
+            <h4>Nossas redes sociais</h4>
+            <div class="social-icons">             
+              <a href="https://www.instagram.com/grafithoficial/?hl=pt-br"><img src="images/instagram.png" alt="Instagram da Banda Grafith" >           
+              <a href="https://www.facebook.com/grafithoficial"><img src="images/facebook.png" alt="Facebook da Banda Grafith" >
+            </div>
+          </div>
+          <div class="footer-contact">
+            <h4>Contate-nos</h4>
+            <h6>+55 (84) 98634-8196</h6>
+            <h6>bandagrafith@gmail.com</h6>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
